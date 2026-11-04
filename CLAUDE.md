@@ -12,7 +12,7 @@ Web estática (HTML/CSS/JS, sin compilación). Cada cambio que llega a la rama `
 - Si hay contradicciones entre fuentes o dudas, no publiques ese dato: usa otro dato vigente.
 - Tú (no vos), claro para España y Latinoamérica. Entre 20 y 400 caracteres por campo.
 - HTML permitido: `<strong>` y `<a href="/ruta-interna/">` o enlaces a amazon.es. Nada más.
-- Datos fijos comprobados: lanzamiento jueves 19/11/2026 en PS5 y Xbox Series; precarga desde el 12/11; Standard 79,99 €, Ultimate 99,99 €; la caja física trae un código, no disco; desbloqueo a las 00:00 del 19/11 hora peninsular en España (en Canarias son las 23:00 del 18/11, la tienda española libera el juego a la vez).
+- Datos fijos comprobados: lanzamiento jueves 19/11/2026 en PS5 y Xbox Series; precarga digital desde el 10/11 (PS5 00:00 hora local; Xbox 01:00 península, 00:00 Canarias), caja con código desde el 12/11; hasta 212 GB; Standard 79,99 €, Ultimate 99,99 €; la caja física trae un código, no disco; desbloqueo a las 00:00 del 19/11 hora peninsular en España (en Canarias son las 23:00 del 18/11, la tienda española libera el juego a la vez).
 - No toques ningún otro archivo en la tarea diaria.
 
 ## Estructura
