@@ -24,6 +24,18 @@
         short = String(d);
       }
       for (var i = 0; i < els.length; i++) {
+        if (ms <= 0 && els[i].getAttribute("data-countdown") === "days" && els[i].parentNode) {
+          var pn = els[i].parentNode, h = pn.querySelector("h2"), sub = els[i].nextElementSibling;
+          if (h) h.textContent = "Ya disponible";
+          if (sub) sub.textContent = "a la venta desde el 19 de noviembre";
+          els[i].textContent = "GTA VI";
+          continue;
+        }
+        if (ms <= 0) {
+          var prev = els[i].previousSibling;
+          if (prev && prev.nodeType === 3 && /sale en/.test(prev.nodeValue)) prev.nodeValue = prev.nodeValue.replace("sale en", "ya está");
+          text = "a la venta";
+        }
         els[i].textContent = els[i].getAttribute("data-countdown") === "days" ? short : text;
       }
     }
